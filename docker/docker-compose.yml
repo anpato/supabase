@@ -397,4 +397,4 @@ services:
       - ./volumes/logs/vector.yml:/vector/vector.yml
       - /var/run/docker.sock:/var/run/docker.sock
 
-    command: [ "--config", "etc/vector/vector.yml" ]
+    command: [ "--config", "vector/vector.yml" ]
